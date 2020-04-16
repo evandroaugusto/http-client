@@ -1,0 +1,21 @@
+{
+  "name": "evandroaugusto/http-client",
+  "description": "A simple Http Client class to make requests using the cURL library",
+  "type": "library",
+  "version": "0.1",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Evandro Oliveira",
+      "email": "evandro@siriusprime.com.br"
+    }
+  ],
+  "require": {
+    "php": "^7.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "evandroaugusto\\HttpClient\\": "src"
+    }
+  }
+}
